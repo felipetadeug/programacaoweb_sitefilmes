@@ -1,0 +1,161 @@
+html, body{
+	margin: 0;
+	padding: 0;
+	background-color: black;
+	font-family: 'Raleway', sans-serif;
+	color: white;
+}
+
+div{
+	width: 100%;
+	background-color: gray;
+	margin: 0;
+	padding: 0;
+	font-size: 50px;
+	font-weight: bold;
+	color: white;
+	padding-left: 10%;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+section{
+	position: relative;
+	margin-top: 30px;
+	margin-left:10%; 
+	margin-right: 10%;
+	width: 80%;
+}
+
+article{
+	position: relative;
+	width: 25%;
+	height: 400px;
+	float: left;
+	background-repeat: no-repeat;
+	background-position: center 50px;
+	background-size: 170px;
+	margin-bottom: 40px;
+}
+
+p:first-child{
+	text-align: center;
+	margin-top: 17px;
+	padding: 0;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+p:last-child{
+	text-align: justify;
+	margin-top: 280px;
+	padding: 0;
+	font-size: 13px;
+	margin-right: 10px;
+	margin-left: 10px;
+}
+
+.filme.animacao:hover{
+	background-color: hsl(240, 100%, 47%);
+	transition: 1.0s;
+}
+
+.filme.acao:hover{
+	background-color: hsl(0, 100%, 27%);
+	transition: 1.0s;
+}
+
+.filme.comedia:hover{
+	background-color: hsl(30, 100%, 50%);
+	transition: 1.0s;
+}
+
+.filme.drama:hover{
+	background-color: hsl(120, 61%, 34%);
+	transition: 1.0s;
+}
+
+.filme.terror:hover{
+	background-color: hsl(0, 0%, 41%);
+	transition: 1.0s;
+}
+
+#zootopia{
+	background-image: url("https://images-na.ssl-images-amazon.com/images/M/MV5BOTMyMjEyNzIzMV5BMl5BanBnXkFtZTgwNzIyNjU0NzE@._V1_UX182_CR0,0,182,268_AL_.jpg");
+}
+
+#zz7{
+	background-image: url("https://images-na.ssl-images-amazon.com/images/M/MV5BNDVhZmJiYWMtNmIzMC00ZWNiLTkzZDYtNGNlZmViMGM4OGExXkEyXkFqcGdeQXVyNTIzOTk5ODM@._V1_UX182_CR0,0,182,268_AL_.jpg");
+}
+
+#malvado_favorito{
+	background-image: url("https://images-na.ssl-images-amazon.com/images/M/MV5BMTY3NjY0MTQ0Nl5BMl5BanBnXkFtZTcwMzQ2MTc0Mw@@._V1_UX182_CR0,0,182,268_AL_.jpg");
+}
+
+#procurando_dory{
+	background-image: url("https://images-na.ssl-images-amazon.com/images/M/MV5BNzg4MjM2NDQ4MV5BMl5BanBnXkFtZTgwMzk3MTgyODE@._V1_UX182_CR0,0,182,268_AL_.jpg");
+}
+
+#rei_leão{
+	background-image: url("https://images-na.ssl-images-amazon.com/images/M/MV5BYTYxNGMyZTYtMjE3MS00MzNjLWFjNmYtMDk3N2FmM2JiM2M1XkEyXkFqcGdeQXVyNjY5NDU4NzI@._V1_UX182_CR0,0,182,268_AL_.jpg");
+}
+
+#busca_implacavel{
+	background-image: url("https://images-na.ssl-images-amazon.com/images/M/MV5BMTM4NzQ0OTYyOF5BMl5BanBnXkFtZTcwMDkyNjQyMg@@._V1_UX182_CR0,0,182,268_AL_.jpg");	
+}
+
+#mercenarios{
+	background-image: url("https://images-na.ssl-images-amazon.com/images/M/MV5BNTUwODQyNjM0NF5BMl5BanBnXkFtZTcwNDMwMTU1Mw@@._V1_UX182_CR0,0,182,268_AL_.jpg");
+}
+
+#duro_matar{
+	background-image: url("https://images-na.ssl-images-amazon.com/images/M/MV5BMzNmY2IwYzAtNDQ1NC00MmI4LThkOTgtZmVhYmExOTVhMWRkXkEyXkFqcGdeQXVyMTk5NDA3Nw@@._V1_UX182_CR0,0,182,268_AL_.jpg");
+}
+
+#beber_não_case{
+	background-image: url("https://images-na.ssl-images-amazon.com/images/M/MV5BMTU1MDA1MTYwMF5BMl5BanBnXkFtZTcwMDcxMzA1Mg@@._V1_UX182_CR0,0,182,268_AL_.jpg");
+}
+
+#as_branquelas{
+	background-image: url("https://images-na.ssl-images-amazon.com/images/M/MV5BMTY3OTg2OTM3OV5BMl5BanBnXkFtZTYwNzY5OTA3._V1_UX182_CR0,0,182,268_AL_.jpg");
+}
+
+#esqueceram_de_mim{
+	background-image: url("https://images-na.ssl-images-amazon.com/images/M/MV5BNmQzYjEzYTQtNzNhZi00NmEwLThiZDMtMWYyNjRmZWY0ZTdkXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_UX182_CR0,0,182,268_AL_.jpg");
+}
+
+#ted{
+	background-image: url("https://images-na.ssl-images-amazon.com/images/M/MV5BMTQ1OTU0ODcxMV5BMl5BanBnXkFtZTcwOTMxNTUwOA@@._V1_UX182_CR0,0,182,268_AL_.jpg");
+}
+
+#procura_felicidade{
+	background-image: url("https://images-na.ssl-images-amazon.com/images/M/MV5BMTQ5NjQ0NDI3NF5BMl5BanBnXkFtZTcwNDI0MjEzMw@@._V1_UX182_CR0,0,182,268_AL_.jpg");
+}
+
+#intocaveis{
+	background-image: url("https://images-na.ssl-images-amazon.com/images/M/MV5BMTYxNDA3MDQwNl5BMl5BanBnXkFtZTcwNTU4Mzc1Nw@@._V1_UX182_CR0,0,182,268_AL_.jpg");
+}
+
+#forrest_gump{
+	background-image: url("https://images-na.ssl-images-amazon.com/images/M/MV5BYThjM2MwZGMtMzg3Ny00NGRkLWE4M2EtYTBiNWMzOTY0YTI4XkEyXkFqcGdeQXVyNDYyMDk5MTU@._V1_UY268_CR10,0,182,268_AL_.jpg");
+}
+
+#sonho_possivel{
+	background-image: url("https://images-na.ssl-images-amazon.com/images/M/MV5BMjEzOTE3ODM3OF5BMl5BanBnXkFtZTcwMzYyODI4Mg@@._V1_UX182_CR0,0,182,268_AL_.jpg");
+}
+
+#invocacao_mal{
+	background-image: url("https://images-na.ssl-images-amazon.com/images/M/MV5BMTM3NjA1NDMyMV5BMl5BanBnXkFtZTcwMDQzNDMzOQ@@._V1_UX182_CR0,0,182,268_AL_.jpg");
+}
+
+#orfa{
+	background-image: url("https://images-na.ssl-images-amazon.com/images/M/MV5BMTU0NjQzNjg2Nl5BMl5BanBnXkFtZTcwNzc3NzA0Mg@@._V1_UX182_CR0,0,182,268_AL_.jpg");
+}
+
+#grito{
+	background-image: url("https://images-na.ssl-images-amazon.com/images/M/MV5BMjIxODg1Nzc3NF5BMl5BanBnXkFtZTcwMjM0MjEzMw@@._V1_UX182_CR0,0,182,268_AL_.jpg");
+}
+
+#espelho_medo{
+	background-image: url("https://images-na.ssl-images-amazon.com/images/M/MV5BMTI2NTA1ODEyOF5BMl5BanBnXkFtZTcwNjc3MjY3MQ@@._V1_UX182_CR0,0,182,268_AL_.jpg");
+}
