@@ -5,11 +5,32 @@
     <meta charset="UTF-8">
     <link href="style.css" rel="stylesheet" type="text/css"/>
     <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+
+    <script type="text/javascript">
+       function exibirPrimeiroBloco(acao){
+           acao.style.background-color = 'blue';
+       }
+    </script>
+
   </head>
   
   <body>
-    <div>
-      FILMES  
+
+
+    <div id="menu">
+      <div class="item" id = "acao" onclick="exibirPrimeiroBloco(acao)">Ação</div>
+      <div class="item">Animação</div>
+      <div class="item">Animal</div>
+      <div class="item">Aventura</div>
+      <div class="item">Comédia</div>
+      <div class="item">Drama</div>
+      <div class="item">Família</div>
+      <div class="item">Policial</div>
+      <div class="item">Suspense</div>
+      <div class="item">Terror</div>
+      <div class="item">Thriller</div>
+      <div class="item">Verídico</div>
+      <div class="limpeza"></div>
     </div>
 
     <section class="filmes">
@@ -19,7 +40,7 @@
         <p>SINOPSE: Judy Hopps é a pequena coelha de uma fazenda isolada, filha de agricultores que plantam cenouras há décadas...</p>
       </article>
       
-      <article class="filme animacao aventura familia futuro" id="malvado_favorito">
+      <article class="filme animacao aventura familia" id="malvado_favorito">
         <p>Meu Malvado Favorito</p>
         <p>SINOPSE: Desejando realizar algo impressionante, Gru planeja roubar a Lua e conta com a ajuda dos mínions...</p>
       </article>
@@ -122,5 +143,6 @@
         <p>SINOPSE: Ben aceita o emprego de vigia noturno, logo ele começa a notar algo estranho nos espelhos,,.</p>
       </article>
     </section>
+    <script src="script.js" type="text/javascript"></script>
   </body>
 </html>

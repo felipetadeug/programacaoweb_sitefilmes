@@ -7,16 +7,38 @@ html, body{
 }
 
 div{
+	position: relative;
 	width: 100%;
 	background-color: gray;
 	margin: 0;
 	padding: 0;
-	font-size: 50px;
-	font-weight: bold;
-	color: white;
-	padding-left: 10%;
-	padding-top: 10px;
+	padding: 0;
+}
+
+.item{
+	position: relative;
+	float: left;
+	width: 8.3%;
+	text-align: center;
+	font-size: 19px;
+	padding-top: 10px; 
 	padding-bottom: 10px;
+	border-bottom: solid #00FF00;
+}
+
+.item:hover{
+	background-color: #CAFF70;
+	transition: 1s;
+	color: black;
+	cursor: pointer;
+}
+
+.item:select{
+	background-color: red;
+}
+
+.limpeza{
+	clear: both;
 }
 
 section{
@@ -24,7 +46,7 @@ section{
 	margin-top: 30px;
 	margin-left:10%; 
 	margin-right: 10%;
-	width: 80%;
+
 }
 
 article{
@@ -55,6 +77,10 @@ p:last-child{
 	margin-left: 10px;
 }
 
+.filme{
+	display: none;
+}
+
 .filme.animacao:hover{
 	background-color: hsl(240, 100%, 47%);
 	transition: 1.0s;
@@ -79,6 +105,56 @@ p:last-child{
 	background-color: hsl(0, 0%, 41%);
 	transition: 1.0s;
 }
+
+body.acao .acao{
+	display: block;
+}
+
+body.animacao .animacao{
+	display: block;
+}
+
+body.animal .animal{
+	display: block;
+}
+
+body.aventura .aventura{
+	display: block;
+}
+
+body.comedia .comedia{
+	display: block;
+}
+
+body.drama .drama{
+	display: block;
+}
+
+body.familia .familia{
+	display: block;
+}
+
+body.policial .policial{
+	display: block;
+}
+
+body.suspense .suspense{
+	display: block;
+}
+
+body.terror .terror{
+	display: block;
+}
+
+body.thriller .thriller{
+	display: block;
+}
+
+body.veridico .veridico{
+	display: block;
+}
+
+
 
 #zootopia{
 	background-image: url("https://images-na.ssl-images-amazon.com/images/M/MV5BOTMyMjEyNzIzMV5BMl5BanBnXkFtZTgwNzIyNjU0NzE@._V1_UX182_CR0,0,182,268_AL_.jpg");
